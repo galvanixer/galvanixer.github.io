@@ -1,0 +1,36 @@
+- dates: January 2012 - May 2012
+  placement: left
+  project: Simulation of Young Embdded Clusters
+  organization: IIST, Thiruvananthpuram
+  advisor: Dr. Sarita Vig
+  advisor_position: Associate Professor
+  advisor_link: https://wwww.iist.ac.in/ess/sarita
+  position: Student
+  description: >-
+                Simulated young embedded clusters based on models from
+                Vig et al. (2007).  
+
+- dates: July 2011 - August 2011
+  placement: left
+  project: Study and Analysis of Anomalous X-ray Pulsars
+  organization: PRL, Ahmedabad
+  advisor: Dr. Sachindra Naik 
+  advisor_position: Associate Professor
+  advisor_link: https://www.prl.res.in/~snaik/
+  position: Student
+  description: >-
+                Carried out Analysis of 1E 1841-045 using Suzaku data.  
+
+- dates: June 2010 - July 2010
+  placement: right
+  project: Image Fusion
+  organization: IIRS, Dehradun
+  advisor: Dr. Shefali Agarwal 
+  advisor_position: Scientist-SG
+  advisor_link: https://wwww.iirs.gov.in/Shefali-profile
+  position: Student
+  description: >-
+                Image fusion of high spatial resolution Panchromatic Image
+                and low resolution colored image using Daubechies Wavelet
+                transform.  
+

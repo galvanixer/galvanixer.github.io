@@ -1,0 +1,37 @@
+- dates: September 2012 - August 2016
+  placement: left
+  project: Astrosat CZTI Software Pipeline
+  organization: Indian Space Research Organization
+  position: Scientist
+  description: >-
+            Developed Level-2 data reduction pipeline for
+            Cadmium Zinc Telluride Imager (CZTI) onboard
+            Astrosat. 
+
+- dates: 2017
+  placement: left
+  project: Autonomous Spacecraft Navigation
+  organization: Indian Space Research Organization
+  position: R&D Focal person
+  description: >-
+                Developed algorithm to estimate and recursively correct spacecraft state
+                for deep-space missions using X-ray Pulsar data. 
+
+- dates: 2014
+  placement: right
+  project: Mars Orbiter Mission(MOM)
+  organization: Indian Space Research Organization
+  position: Scientist
+  description: >-
+                Carried out orbital simulation for Martian phase of MOM. 
+                Developed data processing software for Methane Sensor for 
+                Mars (MSM).
+
+- dates: 2015 - 2017
+  placement: right
+  project: Radiometric Correction
+  organization: Indian Space Research Organization
+  position: Scientist
+  description: >-
+            Radiometric calibration of Cartosat-2S satellites
+            by modelling Light Transfer Characteristics (LTC).

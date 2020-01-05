@@ -1,0 +1,149 @@
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead"> {{ site.data.about.short_description }} </p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                {{ section.content }}
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    {% for item in site.data.skills %}
+                    <li>
+                    <div class="progress percent{{item.progress}}"><span>{{item.progress}}%</span></div>
+                    <strong>{{item.skill}}</strong>
+                    </li>
+                    {% endfor %}    
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#0" class="btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>Professional Research Experience </h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+                    {% for item in site.data.timeline_professional %}
+                    {% if item.placement == "left" %}
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">{{ item.dates }}</p>
+                            <h3>{{ item.project }}</h3>
+                            <h5><span class="maroon">{{ item.position }} </span> | {{ item.organization }} </h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>{{ item.description}}</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    {% endif %}
+                    {% endfor %}
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+                    {% for item in site.data.timeline_professional %}
+                    {% if item.placement == "right" %}
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">{{ item.dates }}</p>
+                            <h3>{{ item.project }}</h3>
+                            <h5> <span class="maroon">{{ item.position }} </span> | {{ item.organization }} </h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>{{ item.description}}</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    {% endif %}
+                    {% endfor %}
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+        <!-- ACADEMIC TIMELINE -->
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>Academic Research Experience </h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+                    {% for item in site.data.timeline_academic %}
+                    {% if item.placement == "left" %}
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">{{ item.dates }}</p>
+                            <h3>{{ item.project }}</h3>
+                            <div class="timeline_caption">
+                                <h5><span class="maroon">Advisor: </span> {{ item.advisor }} </h5>
+                            </div>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>{{ item.description}}</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    {% endif %}
+                    {% endfor %}
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+                    {% for item in site.data.timeline_academic %}
+                    {% if item.placement == "right" %}
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">{{ item.dates }}</p>
+                            <h3>{{ item.project }}</h3>
+                            <div class="timeline_caption">
+                                <h5><span class="maroon">Advisor: </span> {{ item.advisor }} </h5>
+                            </div>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>{{ item.description}}</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+                    {% endif %}
+                    {% endfor %}
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+
+        </div> <!-- end about-content timeline -->
+        <!-- END: ACADEMIC TIMELINE -->
+    </section> <!-- end about -->

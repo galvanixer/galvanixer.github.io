@@ -1,0 +1,19 @@
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+            
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="/assets/images/logo.png" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+            	{% for item in site.data.navigation %}
+                <li><a class="smoothscroll" href={{ item.link }} title={{ item.title}}>{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->

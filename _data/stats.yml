@@ -1,0 +1,15 @@
+- type: Awards Recieved
+  count: 128
+  highlight: False
+
+- type: Cups of Coffee
+  count: 128
+  highlight: True
+
+- type: Projects Completed
+  count: 128
+  highlight: False
+
+- type: Happy Clients
+  count: 128
+  highlight: False

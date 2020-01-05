@@ -1,0 +1,19 @@
+- name: Home
+  title: home
+  link: /#home
+
+- name: About
+  title: about
+  link: /#about
+
+- name: Works 
+  title: works
+  link: /#works
+
+- name: Blog
+  title: blog
+  link: /#blog
+
+- name: Contact 
+  title: contact
+  link: /#contact
