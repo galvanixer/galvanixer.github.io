@@ -1,14 +1,26 @@
 - skill: Python
   progress: 75
+  remark: Fluent
 
 - skill: Julia
   progress: 50
+  remark: Advanced
 
 - skill: C 
   progress: 50
+  remark: Advanced
 
 - skill: Bash Scripting
   progress: 50
+  remark: Advanced
 
 - skill: LINUX, OS X, Windows
-  progress: 60
+  progress: 75
+  remark: Fluent
+
+
+# 0: Beginner
+# 25: Intermediate
+# 50: Advanced
+# 75: Fluent
+# 100: Native

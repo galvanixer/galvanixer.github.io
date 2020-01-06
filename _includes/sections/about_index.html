@@ -22,7 +22,7 @@
                 <ul class="skill-bars">
                     {% for item in site.data.skills %}
                     <li>
-                    <div class="progress percent{{item.progress}}"><span>{{item.progress}}%</span></div>
+                    <div class="progress percent{{item.progress}}"><span>{{item.remark}}</span></div>
                     <strong>{{item.skill}}</strong>
                     </li>
                     {% endfor %}    

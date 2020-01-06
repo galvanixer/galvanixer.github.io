@@ -1,4 +1,4 @@
 ---
 include: sections/blog_index.html
-order: 5
+order: 3
 ---

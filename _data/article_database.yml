@@ -1,0 +1,59 @@
+- title: "Judy Arrays: Unbounded Associative Arrays."
+  description: >-
+                Once upon a time, in a secluded place, far from the 
+                noise of the world, I was trying to classicaly simulate
+                time evolution quantum operators. The Matrix realization
+                of the operator depends upon the size of the quantum system. 
+                Unfortunately, Quantum race of the 21st Century among the
+                Tech Giants have increased the system size to be more than
+                100 qubits. For us, this meant a Data Type that can store
+                around 2<sup>100</sup> values. Hence, the search led to Judy Arrays.
+  link: "/articles/article1.html"
+  date: Sat Jan  4 21:14:55 CET 2020
+  category: ['Julia', 'Judy']
+  tags: ['Julia', 'Judy']
+
+- title: "Judy Arrays: Unbounded Associative Arrays."
+  description: >-
+                Once upon a time, in a secluded place, far from the 
+                noise of the world, I was trying to classicaly simulate
+                time evolution quantum operators. The Matrix realization
+                of the operator depends upon the size of the quantum system. 
+                Unfortunately, Quantum race of the 21st Century among the
+                Tech Giants have increased the system size to be more than
+                100 qubits. For us, this meant a Data Type that can store
+                around 2^100 values. Hence, the search led to Judy Arrays.
+  link: "/articles/article1.html"
+  date: Sat Jan  4 21:14:55 CET 2020
+  category: ['Branding', 'Design', 'Miscellaneous']
+  tags: ['Julia', 'Judy']
+
+- title: "Judy Arrays: Unbounded Associative Arrays."
+  description: >-
+                Once upon a time, in a secluded place, far from the 
+                noise of the world, I was trying to classicaly simulate
+                time evolution quantum operators. The Matrix realization
+                of the operator depends upon the size of the quantum system. 
+                Unfortunately, Quantum race of the 21st Century among the
+                Tech Giants have increased the system size to be more than
+                100 qubits. For us, this meant a Data Type that can store
+                around 2^100 values. Hence, the search led to Judy Arrays.
+  link: "/articles/article1.html"
+  date: Sat Jan  4 21:14:55 CET 2020
+  category: ['Branding', 'Design', 'Miscellaneous']
+  tags: ['Julia', 'Judy']
+
+- title: "Judy Arrays: Unbounded Associative Arrays."
+  description: >-
+                Once upon a time, in a secluded place, far from the 
+                noise of the world, I was trying to classicaly simulate
+                time evolution quantum operators. The Matrix realization
+                of the operator depends upon the size of the quantum system. 
+                Unfortunately, Quantum race of the 21st Century among the
+                Tech Giants have increased the system size to be more than
+                100 qubits. For us, this meant a Data Type that can store
+                around 2^100 values. Hence, the search led to Judy Arrays.
+  link: "/articles/article1.html"
+  date: Sat Jan  4 21:14:55 CET 2020
+  category: ['Branding', 'Design', 'Miscellaneous']
+  tags: ['Julia', 'Judy']

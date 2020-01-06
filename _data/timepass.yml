@@ -1,0 +1,30 @@
+- activity: Kalimba
+  caption: An Unusual Instrument
+  description: >-
+                My 17-key Kalimba hardly covers two octaves, but gosh it's not
+                an easy instrument. Unlike keyboard, I find that it is difficult
+                to maintain Tempo with Kalimba. Perhaps, that's my inexperience 
+                speaking. I'll update you once I am Fluent in this skill.
+
+                It helps me calm my mind.
+  image_link: "/assets/images/timepass/Kalimba.jpg"
+
+- activity: Julia
+  caption: Language of the future
+  description: >-
+                Julia, I believe, is the language that is going to define scientific computing.
+                The language has a lot to offer, and unlike other high level languages, Julia
+                does not try to make things simpler more than they should be. With my limited
+                experience, I have only realized that this is the language that fulfills most 
+                of my needs. 
+  image_link: "/assets/images/timepass/Julia.jpg"
+
+- activity: "हिंदी कविताएं"
+  caption: "मेरी मिट्टी की आवाज"
+  description: >- 
+                मेरी हमेशा से ही हिंदी कविताओं में रुचि रही है।
+                विशेष रुप से, वीर रस से भरी कविताएँ। मुझे इन
+                कविताओं को सुनना एवं पढ़ना पसंद है।
+  image_link: "/assets/images/timepass/dinkar.jpg"
+
+
