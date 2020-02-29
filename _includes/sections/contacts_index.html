@@ -14,7 +14,38 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="input" id="contactForm" method="POST" action="https://formspree.io/xzbdqdag">
+
+                <form name="input" method="POST" action="https://formspree.io/xknbzygv">
+                    <fieldset>
+                        <div class="form-field">
+                            <input type="text" name="Name" id="contactName" placeholder="Name" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="replyto" placeholder="Email" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="message" placeholder="Message" class="full-width" rows="10"
+                            cols="50"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary" type="submit">Submit</button>
+                            <!--<input type="submit" value="Send">-->
+                            <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <!--<input type="hidden" name="_next" value="thanks.html">-->
+                    </fieldset>
+                </form>
+                <!-- <form id="contactForm" action="https://formspree.io/xknbzygv" method="POST" >
                     <fieldset>
     
                     <div class="form-field">
@@ -45,6 +76,7 @@
     
                     </fieldset>
                 </form>
+            -->
 
                 <!-- contact-warning -->
                 <div class="message-warning">

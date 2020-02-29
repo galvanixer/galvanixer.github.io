@@ -208,7 +208,7 @@ results. The final phase is pure bliss.</p>
         <div class="row about-content about-content--buttons">
 
             <div class="col-full text-center">
-                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+                <a href="/assets/docs/TanulGupta_CV_g.pdf" class="btn btn--primary full-width">Download My CV (Last update 2019)</a>
             </div>
             <!--<div class="col-six tab-full right">
                 <a href="#0" class="btn full-width">Hire Me Now</a>
@@ -1257,23 +1257,56 @@ It helps me calm my mind.</p>
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
+
+                <form name="input" method="POST" action="https://formspree.io/xknbzygv">
+                    <fieldset>
+                        <div class="form-field">
+                            <input type="text" name="Name" id="contactName" placeholder="Name" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input type="email" name="replyto" placeholder="Email" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="message" placeholder="Message" class="full-width" rows="10"
+                            cols="50"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary" type="submit">Submit</button>
+                            <!--<input type="submit" value="Send">-->
+                            <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                        </div>
+                        <!--<input type="hidden" name="_next" value="thanks.html">-->
+                    </fieldset>
+                </form>
+                <!-- <form id="contactForm" action="https://formspree.io/xknbzygv" method="POST" >
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="Name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+
+                    <div class="form-field">
+                        <input name="_subject" type="hidden" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+
+                    <div class="form-field">
+                        <textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary" type="submit">Submit</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -1286,11 +1319,12 @@ It helps me calm my mind.</p>
     
                     </fieldset>
                 </form>
+            -->
 
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
-                </div> 
+                </div>
             
                 <!-- contact-success -->
                 <div class="message-success">
