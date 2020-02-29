@@ -2,11 +2,11 @@
 title: Using Patterns in your Branding
 layout: blog-single
 date: Sat Jan  4 21:14:55 CET 2020
+title_image: '/assets/images/blog/blog-bg-02.jpg'
 author: Tanul Gupta
 category: ['Branding', 'Design', 'Miscellaneous']
 tags: ['Julia', 'Judy']
 ---
-
 
 <p class="lead">Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint.</p>
 

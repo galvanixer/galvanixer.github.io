@@ -1,105 +1,135 @@
 - image: /assets/images/Manthan/alps.jpeg
+  image_thumbnail: /assets/images/Manthan/alps_crop.jpg
   title: Alps
   description: Watching out the plane window, I think I found Alps.
   caption: Are they?
   size: 3993x2176
 
-# - image: /assets/images/Manthan/baylalu.jpeg
-#   title: 
-#   description:
-#   caption: 
+- image: /assets/images/Manthan/inkpen.jpeg
+  image_thumbnail: /assets/images/Manthan/inkpen_crop.jpg
+  title: Fountain pens 
+  description: If you ever want to gift me anything, then go for an exotic fountain pen.
+  caption: No substitute for them.
+  size: 3200x1800
 
-# - image: /assets/images/Manthan/buddha.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/baylalu.jpeg
+  image_thumbnail: /assets/images/Manthan/baylalu_crop.jpg
+  title: Baylalu
+  description: "Captured by the best photographer I happen to know and work with. <br>#ArvindSir</br>"
+  caption: Gabbar was here once
+  size: 900x1600
 
-# - image: /assets/images/Manthan/cologneCathedral.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/buddha.jpeg
+  image_thumbnail: /assets/images/Manthan/buddha_crop.jpg
+  title: Buddha
+  description: "Seeing one monastery after another with mummy saying ki mandir nhi hai kya yahan. <br>#Mummy #Papa</br>"
+  caption: Small But Beautiful
+  size: 3200x1800
 
-# - image: /assets/images/Manthan/costlycycle.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/ponmudi.jpeg
+  image_thumbnail: /assets/images/Manthan/ponmudi_crop.jpg
+  title: Ponmudi
+  description: "My favorite person at my favorite place. <br> #Motu</br>"
+  caption: I dream to be here.
+  size: 1280x720
 
-# - image: /assets/images/Manthan/dart.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/nalSarovar.jpeg
+  image_thumbnail: /assets/images/Manthan/nalSarovar_crop.jpg
+  title: "A bird sanctuary"
+  description: "Early morning, in the mild winters of Ahmedabad, floating on lake absorbing the beauty all around. 
+                <br> #Motu #Baba #Chaturvedi </br>" 
+  caption: Gujaratis can guess.
+  size: 1920x1080
 
-# - image: /assets/images/Manthan/iWish.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/ipod.jpeg
+  image_thumbnail: /assets/images/Manthan/ipod_crop.jpg
+  title: My Shuffle
+  description: "Ran a quarter marathon with the help of Shuffle and Motu. <br>#Motu</br>"
+  caption: I still have it.
+  size: 4160x3120
 
-# - image: /assets/images/Manthan/inkpen.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/kuku.jpg
+  image_thumbnail: /assets/images/Manthan/kuku_crop.jpg
+  title: Cheap Thrills
+  description: "She really didn't need any bills to have fun anywhere. <br>Happy at heart #Kuku</br>"
+  caption: Sticky notes art
+  size: 1126x1117
 
-# - image: /assets/images/Manthan/ipod.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/dart.jpeg
+  image_thumbnail: /assets/images/Manthan/dart_crop.jpg
+  title: Dart board @ C7/12
+  description: "Visited me at Ahmedabad, then you have darted this board."
+  caption: Will buy it once again.
+  size: 1440x810
 
-# - image: /assets/images/Manthan/jamaMasjid.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/jamaMasjid.jpeg
+  image_thumbnail: /assets/images/Manthan/jamaMasjid_crop.jpg
+  title: Jama Masjid 
+  description: "In the middle of Old Ahmedabad, this place provides the peace and calm you might be searching for.<br>#Nanu</br>"
+  caption: Calmness reloaded
+  size: 6000x4000
 
-# - image: /assets/images/Manthan/kagaz_kalam_davat.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/cologneCathedral.jpeg
+  image_thumbnail: /assets/images/Manthan/cologneCathedral_crop.jpg
+  title: Vimanam of Köln Cathedral
+  description: "It took 2 Euros and a lot of efforts to reach at the top of Cathedral. <br>#Annie</br>"
+  caption: Identity of Köln
+  size: 4608x2176
 
-# - image: /assets/images/Manthan/nalSarovar.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/parisletdown.jpeg
+  image_thumbnail: /assets/images/Manthan/parisletdown_crop.jpg
+  title: Eiffel Tower
+  description: "One and only advice, save your money, don't visit this city. Go Prague. <br>#Annie</br>"
+  caption: Paris, a major letdown
+  size: 2176x4608
 
-# - image: /assets/images/Manthan/parisletdown.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/sikkim.jpeg
+  image_thumbnail: /assets/images/Manthan/sikkim_crop.jpg
+  title: Darjeeling to Gangtok
+  description: "Himalayas can make you seek way beyond your vasanas. <br>#Mummy #Papa</br>"
+  caption: My seeker moment
+  size: 3200x1800
 
-# - image: /assets/images/Manthan/polKhol.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/skagenMotu.jpeg
+  image_thumbnail: /assets/images/Manthan/skagenMotu_crop.jpg
+  title: Skagen
+  description: "I fell in love with its counterpart, the first time I saw it. <br> #Motu </br>"
+  caption: Counterpart to mine
+  size: 4096x3072
 
-# - image: /assets/images/Manthan/ponmudi.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/thol.jpeg
+  image_thumbnail: /assets/images/Manthan/thol_crop.jpg
+  title: Thol Bird Sanctuary
+  description: "RockRiders were here and so do TVS Wego (at different times indeed). <br> #Motu #Baba </br>"
+  caption: Cycle ride
+  size: 4000x3000
 
-# - image: /assets/images/Manthan/shanivarVada.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/shanivarVada.jpeg
+  image_thumbnail: /assets/images/Manthan/shanivarVada_crop.jpg
+  title: Way to Sinhagad (Kondhana)
+  description: "A missing person, an over excited little girl, a 6 foot tall giant, a little brother with ripped shoes, and a smart guy (me)
+                hiked this deathly trail. <br>#Joshi #Ishu #Motu #Annie</br>"
+  caption: Sahyadri, Rain, and Adrenaline
+  size: 4160x3120
 
-# - image: /assets/images/Manthan/sikkim.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/polKhol.jpeg
+  image_thumbnail: /assets/images/Manthan/polKhol_crop.jpg
+  title: Pol Khol
+  description: "Not many people can plan an itinerary that well. If you want to see Ahmedabad, then ask her. <br>#Nanu</br>"
+  caption: Ahmedabad with her eyes
+  size: 6000x4000
 
-# - image: /assets/images/Manthan/skagenMine.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/wallclock.jpeg
+  image_thumbnail: /assets/images/Manthan/wallclock_crop.jpg
+  title: My Retro Clock
+  description: "Filled the entire wall. Now with a broken glass @Mohanpuri. <br>#Motu #Family</br>"
+  caption: And there were two..
+  size: 3200x1800
 
-# - image: /assets/images/Manthan/skagenMotu.jpeg
-#   title:
-#   description:
-#   caption:
+- image: /assets/images/Manthan/kagaz_kalam_davat.jpeg
+  image_thumbnail: /assets/images/Manthan/kagaz_kalam_davat_crop.jpg
+  title: Pots of Ink
+  description: My journey started with Parker and Pelikan, and now I have reached Lamy and Sheaffer.
+  caption: I started here.
+  size: 1280x720
 
-# - image: /assets/images/Manthan/thol.jpeg
-#   title:
-#   description:
-#   caption:
-
-# - image: /assets/images/Manthan/wallclock.jpeg
-#   title:
-#   description:
-#   caption:

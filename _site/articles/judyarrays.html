@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Using Patterns in your Branding</title>
+    <title>Judy Arrays</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -72,27 +72,25 @@
         <!-- page header/blog hero
         ================================================== -->
 
-        <div class="page-header page-header--single page-hero" style="background-image:url(/assets/images/blog/blog-bg-02.jpg)">
+        <div class="page-header page-header--single page-hero" style="background-image:url(/assets/images/blog/judyarrays/ja_top.png)">
             <div class="row page-header__content narrow">
                 <article class="col-full">
                     <div class="page-header__info">
                         <div class="page-header__cat">
                             
-                            <a href="#0">Branding</a>
+                            <a href="#0">Julia</a>
                             
-                            <a href="#0">Design</a>
-                            
-                            <a href="#0">Miscellaneous</a>
+                            <a href="#0">Computer Science</a>
                             
                         </div>
                     </div>
                     <h1 class="page-header__title">
                         <a href="#0" title="">
-                            Using Patterns in your Branding
+                            Judy Arrays
                         </a>
                     </h1>
                     <ul class="page-header__meta">
-                        <li class="date"> 4 January, 2020</li>
+                        <li class="date"> 2 January, 2020</li>
                         <li class="author">
                             By
                             <span>Tanul Gupta</span>
@@ -107,60 +105,52 @@
         <div class="row blog-content">
             <div class="col-full blog-content__main">
 
-                <p class="lead">Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint.</p>
-
-<p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
-</p>
-
+                <h2>Introduction</h2>
 <p>
-<img src="/assets/images/wheel-1000.jpg" srcset="/assets/images/wheel-2000.jpg 2000w, 
-        /assets/images/wheel-1000.jpg 1000w, 
-        /assets/images/wheel-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="" />
-</p>
-
-<h2>Large Heading</h2>
-
-<p>Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus <a href="http://#">omnis voluptas assumenda est</a> id quod maxime placeat facere possimus, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et.</p>
-
-<blockquote><p>This is a simple example of a styled blockquote. A blockquote tag typically specifies a section that is quoted from another source of some sort, or highlighting text in your post.</p></blockquote>
-
-<p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
-
-<h3>Smaller Heading</h3>
-
-<p>Dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
-
-<pre><code>
-code {
-font-size: 1.4rem;
-margin: 0 .2rem;
-padding: .2rem .6rem;
-white-space: nowrap;
-background: #F1F1F1;
-border: 1px solid #E1E1E1;	
-border-radius: 3px;
-}
-</code></pre>
-
-<p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+I wanted to simulate the time evolution of quantum systems containing 100 or more qubits. This is a humongous task for any classical computer, but even we get a good enough system, we are still limited by datatypes that can store (key, value) pairs with more than 264 keys. Even Hash tables are unable to resolve this issue. This led us to search for associative arrays that can satisfy the following requirements:</p>
 
 <ul>
-    <li>Donec nulla non metus auctor fringilla.
-        <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-        </ul>
-    </li>
-    <li>Donec nulla non metus auctor fringilla.</li>
-    <li>Donec nulla non metus auctor fringilla.</li>
+	<li>Sparse arrays with dynamic or unbounded indexes (0, 1, 2, .... n).</li>
+	<li>Fast search and retrieval</li>
+	<li>Fast counting and sorting</li>
+	<li>Memory efficient</li>
+	<li>Nearly linear performance from very small to very large populations</li>
 </ul>
 
-<p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
+<p>All these requirements are fulfilled by JudyArrays, and that’s why I undertook this journey to understand the working of this peculiar data type. Roughly speaking, <strong>Judy Arrays</strong> are highly optimized <strong>256-ary <a href="https://en.wikipedia.org/wiki/Radix_tree">radix trees</a>.</strong> Unlike most other associative arrays, Judy arrays use no hashing, leverage compression on their keys, and can efficiently represent sparse data.</p>
 
+<h2 id="history">History</h2>
+<p>JudyArray was developed by Douglas Baskins and his team in Hewlett Packard (HP), and it is named after his sister.</p>
 
+<h2 id="benefits">Benefits</h2>
+<ol>
+  <li><strong>Memory Efficient</strong><br />
+Being dynamic, Judy arrays can grow or shrink as elements are inserted or removed from the array. Hence, the memory used by Judy arrays is nearly proportional to the number of elements stored.</li>
+  <li><strong>Speed</strong><br />
+Judy arrays are designed to minimize the number of expensive <a href="https://en.wikipedia.org/wiki/Cache-line">cache-line</a> fills from RAM. A cache miss is a failed attempt to read or write a piece of data in the cache, which results in the main memory (RAM) access with much longer latency. Therefore, a cache miss should be avoided as often as possible. This is precisely what the complex algorithm behind Judy arrays achieve. Due to these cache optimizations, Judy arrays are fast, especially for very large datasets.</li>
+</ol>
 
-</p>
+<h2 id="when-to-use-judy-array">When to use Judy array?</h2>
+<ol>
+  <li>Large and sparse data sets.</li>
+  <li>Semi-sequential data sets.</li>
+  <li>General low latency requirement.</li>
+</ol>
+
+<h2 id="algorithm">Algorithm</h2>
+<p>Will be updated.</p>
+
+<h2 id="implementations-available">Implementations available</h2>
+<ol>
+  <li>The original implementation of Judy Array was written by Douglas Baskins at HP. This implementation is the fastest, but quite complex to understand the algorithm. It is available as a <a href="http://judy.sourceforge.net/index.html">Judy Array API library</a> written in C.</li>
+  <li>Author Karl Malbrain with assistance from Jan Weiss rewrote Douglas’s <a href="https://code.google.com/archive/p/judyarray/">Judy Arrays within 1250 lines of code</a>.</li>
+  <li><a href="https://github.com/tanmaykm">Tanmay Mohapatra</a> wrote a Julia package that acts as a wrapper on top of the original C API written by Douglas. As this wrapper was written in Julia 0.6, it is now deprecated.</li>
+  <li><a href="https://github.com/galvanixer">Tanul Gupta</a> wrote a Julia package named <a href="https://github.com/galvanixer/JudyDicts.jl">JudyDicts</a> taking inspiration from <a href="https://github.com/tanmaykm">Tanmay’s</a> deprecated package. This new Julia package works in Julia 1.0.</li>
+</ol>
+
+<h2 id="future">Future</h2>
+<p>We are working on a standalone Julia package based on Karl Malbrain’s implementation. Let’s hope we can work it out as soon as possible.</p>
+
 
 
                 <p class="blog-content__tags">
@@ -172,7 +162,7 @@ border-radius: 3px;
                 </span>
                 
                 <span class="blog-content__tag-list">
-                    <a href="#0">Judy</a>
+                    <a href="#0">Computer Science</a>
                 </span>
                 
 
