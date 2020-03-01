@@ -62,12 +62,12 @@
   caption: Will buy it once again.
   size: 1440x810
 
-- image: /assets/images/Manthan/jamaMasjid.jpeg
-  image_thumbnail: /assets/images/Manthan/jamaMasjid_crop.jpg
-  title: Jama Masjid 
-  description: "In the middle of Old Ahmedabad, this place provides the peace and calm you might be searching for.<br>#Nanu</br>"
-  caption: Calmness reloaded
-  size: 6000x4000
+# - image: /assets/images/Manthan/jamaMasjid.jpeg
+#   image_thumbnail: /assets/images/Manthan/jamaMasjid_crop.jpg
+#   title: Jama Masjid 
+#   description: "In the middle of Old Ahmedabad, this place provides the peace and calm you might be searching for.<br>#Nanu</br>"
+#   caption: Calmness reloaded
+#   size: 6000x4000
 
 - image: /assets/images/Manthan/cologneCathedral.jpeg
   image_thumbnail: /assets/images/Manthan/cologneCathedral_crop.jpg
@@ -112,12 +112,12 @@
   caption: Sahyadri, Rain, and Adrenaline
   size: 4160x3120
 
-- image: /assets/images/Manthan/polKhol.jpeg
-  image_thumbnail: /assets/images/Manthan/polKhol_crop.jpg
-  title: Pol Khol
-  description: "Not many people can plan an itinerary that well. If you want to see Ahmedabad, then ask her. <br>#Nanu</br>"
-  caption: Ahmedabad with her eyes
-  size: 6000x4000
+# - image: /assets/images/Manthan/polKhol.jpeg
+#   image_thumbnail: /assets/images/Manthan/polKhol_crop.jpg
+#   title: Pol Khol
+#   description: "Not many people can plan an itinerary that well. If you want to see Ahmedabad, then ask her. <br>#Nanu</br>"
+#   caption: Ahmedabad with her eyes
+#   size: 6000x4000
 
 - image: /assets/images/Manthan/wallclock.jpeg
   image_thumbnail: /assets/images/Manthan/wallclock_crop.jpg
