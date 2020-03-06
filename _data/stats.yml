@@ -2,13 +2,13 @@
   count: 1
   highlight: False
 
-- type: Cups of Coffee
-  count: 128
-  highlight: True
+- type: Articles Published
+  count: 2
+  highlight: False
 
 - type: Countries Visited
   count: 6
-  highlight: False
+  highlight: True
 
 - type: Github Repositories
   count: 3

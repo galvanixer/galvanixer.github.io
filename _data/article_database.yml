@@ -1,7 +1,7 @@
 - title: "Judy Arrays: Unbounded Associative Arrays."
   description: >-
                 Once upon a time, in a secluded place, far from the 
-                noise of the world, I was trying to classicaly simulate
+                noise of the world, I was trying to classically simulate
                 time evolution quantum operators. The Matrix realization
                 of the operator depends upon the size of the quantum system. 
                 Unfortunately, Quantum race of the 21st Century among the
@@ -16,9 +16,13 @@
 - title: "Lost in Math?"
   description: >-
                 Sometimes we do random things, and this book was read
-                because one semester I found myself comparatively free (वेल्ला), that
-                I decided to take Philosophy for Physics course. Far from
-                the equations, the course felt like a breath of fresh air.
+                because 
+                One semester I found myself comparatively free (वेल्ला). In order
+                to utilize free time, I decided to take Philosophy for Physics course. Far from
+                the equations, the course felt like a breath of fresh air. As part of this course,
+                I happen to read <b> Lost in Math </b> by Sabbine Hossenfelder. This book is an
+                excellent summary of the current status of particle physics. In this article,
+                I have reviewed this book.
 
 
   link: "/articles/lost_in_math.html"

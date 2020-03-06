@@ -1,12 +1,12 @@
 - name: Home
   title: home
-  link: /#home
+  link: "/#home"
 
 - name: About
   title: about
   link: /#about
 
-- name: Memories 
+- name: Memories
   title: memories
   link: /#memories
 
