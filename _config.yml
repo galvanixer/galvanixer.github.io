@@ -19,8 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 name: Manthan
-title: Your awesome title
+title: Manthan
 email: tanulgupta123@gmail.com
+author: Tanul Gupta
 description: >- # this means to ignore newlines until "baseurl:"
   I am Tanul Gupta, a Quantum Physicist, currently working at Research Centre Jülich.
   Manthan is my professional portfolio cum blogging platform.

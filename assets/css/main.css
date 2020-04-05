@@ -3550,7 +3550,7 @@ article.blog-single .blog-content {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
+    opacity: 0.4;
     background-color: #0D0A0B;
 }
 
@@ -3562,7 +3562,7 @@ article.blog-single .blog-content {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .5;
+    opacity: 0.5;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
