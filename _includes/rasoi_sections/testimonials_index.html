@@ -1,0 +1,31 @@
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">The Passage of Time.</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+                {% for item in site.data.timepass %}
+                <div class="testimonials__slide">
+                    <img src={{ item.image_link}} alt="Item Image" class="testimonials__avatar">
+                    <p>{{ item.description }}</p>
+                    <div class="testimonials__author h06">
+                        {{ item.activity }}
+                        <span>{{ item.caption }}</span>
+                    </div>
+                </div>
+                {% endfor %}
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->

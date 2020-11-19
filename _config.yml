@@ -33,6 +33,7 @@ github_username:  galvanixer
 
 collections:
   - sections
+  - rasoi_sections
 # Build settings
 # theme: minima
 # plugins:

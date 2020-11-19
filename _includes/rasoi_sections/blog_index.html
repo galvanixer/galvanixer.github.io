@@ -1,0 +1,48 @@
+    <!-- blog
+    ================================================== -->
+    <section id="blog" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Journal</h3>
+                <h1>Selected Articles</h1>
+                <p class="lead"> 
+                This is a collection of some of the articles which I have written over the years.
+                I am trying to compile them here.
+                </p>
+            </div>
+        </div>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                <div class="blog-list block-1-2 block-tab-full">
+
+                    {% for item in site.data.article_database %}
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">{{ item.date | date: "%-d %B, %Y"}}</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href={{ item.link }} target="_blank">{{ item.title }}</a></h2>
+                        <p>
+                        {{ item.description }}
+                        </p>
+
+                        <div class="blog-cat">
+                                {% for x in item.category %}
+                                <a href="blog.html"> {{x}}</a>
+                                {% endfor %}
+                        </div>
+
+                        
+                    </article>
+                    {% endfor %}
+                    </article>
+                </div> <!-- end blog-list -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
+
+    </section> <!-- end s-blog -->

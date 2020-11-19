@@ -1,2 +1,4 @@
-.icloud
+*.icloud
 .jekyll-cache/
+.DS_store
+_site/

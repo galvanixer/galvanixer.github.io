@@ -26,12 +26,12 @@
   caption: Small But Beautiful
   size: 3200x1800
 
-- image: /assets/images/Manthan/ponmudi.jpeg
-  image_thumbnail: /assets/images/Manthan/ponmudi_crop.jpg
-  title: Ponmudi
-  description: "My favorite person at my favorite place. <br> #Motu</br>"
-  caption: I dream to be here.
-  size: 1280x720
+# - image: /assets/images/Manthan/ponmudi.jpeg
+#   image_thumbnail: /assets/images/Manthan/ponmudi_crop.jpg
+#   title: Ponmudi
+#   description: "My favorite person at my favorite place. <br> #Motu</br>"
+#   caption: I dream to be here.
+#   size: 1280x720
 
 - image: /assets/images/Manthan/nalSarovar.jpeg
   image_thumbnail: /assets/images/Manthan/nalSarovar_crop.jpg
@@ -90,12 +90,12 @@
   caption: My seeker moment
   size: 3200x1800
 
-- image: /assets/images/Manthan/skagenMotu.jpeg
-  image_thumbnail: /assets/images/Manthan/skagenMotu_crop.jpg
-  title: Skagen
-  description: "I fell in love with its counterpart, the first time I saw it. <br> #Motu </br>"
-  caption: Counterpart to mine
-  size: 4096x3072
+# - image: /assets/images/Manthan/skagenMotu.jpeg
+#   image_thumbnail: /assets/images/Manthan/skagenMotu_crop.jpg
+#   title: Skagen
+#   description: "I fell in love with its counterpart, the first time I saw it. <br> #Motu </br>"
+#   caption: Counterpart to mine
+#   size: 4096x3072
 
 - image: /assets/images/Manthan/thol.jpeg
   image_thumbnail: /assets/images/Manthan/thol_crop.jpg
